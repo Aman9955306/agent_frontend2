@@ -14,7 +14,7 @@ const TABS = {
 };
 
 const Home = () => {
-  const [activeTab, setActiveTab] = useState("create");
+  const [activeTab, setActiveTab] = useState("join_room_name");
 
   const renderContent = () => {
     switch (activeTab) {

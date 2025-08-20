@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  react-app:
+    build: .
+    ports:
+      - "86:5173"   # map VM port 86 → React dev server port 5173
+    volumes:
+      - .:/app      # hot reload: sync project files with container
+      - /app/node_modules
+    stdin_open: true
+    tty: true
