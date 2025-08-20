@@ -58,9 +58,9 @@ const SimpleVoiceAssistant = () => {
       </div>
       <div className="w-full max-w-2xl mt-5">
         <VoiceAssistantControlBar />
-        <Chat>
+        {/* <Chat>
           <ChatEntry />
-        </Chat>
+        </Chat> */}
         
         {/* <div className="p-5 max-h-72 overflow-y-scroll w-full h-full border border-gray-200 rounded-lg mt-5 bg-white">
           {messages.map((msg, index) => (

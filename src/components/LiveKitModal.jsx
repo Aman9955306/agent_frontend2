@@ -72,8 +72,8 @@ const LiveKitModal = () => {
               <div>
               <RoomName />
               </div>
-              {/* <SimpleVoiceAssistant /> */}
-              <SimpleVoiceAssistant2 />
+              <SimpleVoiceAssistant />
+              {/* <SimpleVoiceAssistant2 /> */}
             </LiveKitRoom>
           ) : (
             <div>Loading support room...</div>
