@@ -4,10 +4,10 @@ export default function Navbar() {
   const location = useLocation();
 
   const navLinks = [
-    // { path: "/", label: "Home" },
+    { path: "/", label: "Home" },
     // { path: "/v1", label: "V1" },
     // { path: "/meet", label: "Join Meet" },
-    { path: "/", label: "Room joiner" },
+    { path: "/meetjoiner", label: "Room joiner" },
   ];
 
   return (
