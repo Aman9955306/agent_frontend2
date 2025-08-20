@@ -7,7 +7,7 @@ export default function Navbar() {
     { path: "/", label: "Home" },
     // { path: "/v1", label: "V1" },
     // { path: "/meet", label: "Join Meet" },
-    // { path: "/meetjoiner", label: "Room joiner" },
+    { path: "/meetjoiner", label: "Room joiner" },
   ];
 
   return (
