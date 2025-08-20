@@ -3,12 +3,14 @@ import CreateConfigForm from "./CreateConfigForm";
 import UpdateConfigForm from "./UpdateConfigForm";
 import ListConfigs from "./ListConfigs";
 import Custom_joiner from "./Custom_joiner";
+import JoinRoomForm from "./JoinRoomForm";
 
 const TABS = {
+  join_room_name: "Join Room",
   create: "Create Agent",
   update: "Update Agent",
   list: "List Agents",
-  join: "Join Room",
+  join: "Join Saved Agents",
 };
 
 const Home = () => {
@@ -24,6 +26,8 @@ const Home = () => {
         return <ListConfigs />;
       case "join":
         return <Custom_joiner />;
+      case "join_room_name":
+        return <JoinRoomForm />;
       default:
         return null;
     }
