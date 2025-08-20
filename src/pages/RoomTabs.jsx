@@ -8,7 +8,7 @@ const RoomTabs = () => {
   return (
     <div className="max-w-2xl mx-auto p-6 space-y-6">
       {/* Tab Switcher */}
-      <div className="flex space-x-4">
+      {/* <div className="flex space-x-4">
         <button
           onClick={() => setActiveTab("create")}
           className={`px-4 py-2 rounded ${
@@ -25,10 +25,11 @@ const RoomTabs = () => {
         >
           Join Room
         </button>
-      </div>
+      </div> */}
 
       {/* Tab Content */}
-      {activeTab === "create" ? <CreateRoomForm /> : <JoinRoomForm />}
+      {/* {activeTab === "create" ? <CreateRoomForm /> : <JoinRoomForm />} */}
+      <JoinRoomForm />
     </div>
   );
 };
